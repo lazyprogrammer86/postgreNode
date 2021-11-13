@@ -7,4 +7,12 @@ const pool = new Pool({
     password: 'password',
 });
 
+//connection
+pool.connect()
+    .then((connection) => {
+        console.log(`Connected to the database ${connection.database}`)
+    }).catch(err => {
+        console.log(err.message)
+    })
+
 module.exports = pool;

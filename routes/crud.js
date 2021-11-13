@@ -12,6 +12,7 @@ router.get('/', async (req, res) => {
     });
 });
 
+
 //get specific user
 router.get('/:id', async (req, res) => {
     const userID = req.params.id;

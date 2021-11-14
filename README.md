@@ -13,13 +13,13 @@
    
  3.  URL : http://localhost:3000/ \
      method : POST \
-     body : { "name" : <enter name here> , "email":<enter email here> } \
+     body : { "name" : <'enter name here'> , "email":<'enter email here'> } \
      output : Inserts a new user with the name adn email  
      
  
  4.  URL : localhost:3000/userID \
      method : PUT \
-     body : { "name" : <enter name here> , "email":<enter email here> } \
+     body : { "name" : <'enter name here'> , "email":<'enter email here'> } \
      output : Update the user name and email for the userID specified 
      
  5.  URL : http://localhost:3000/userID \

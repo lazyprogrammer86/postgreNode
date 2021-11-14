@@ -1,7 +1,7 @@
 # postgreNode
 
  API endopoints 
- 1.  URL : http://localhost:3000/ 
+ 1.  URL : http://localhost:3000/ \
      method : GET \
      body : empty \
      output : Gets all the users  in the users table 
